@@ -3,8 +3,7 @@
 // 2 -> 1,4.
 
 Console.WriteLine("Введите любое число: ");
-string writeN = Console.ReadLine()!;
-int N = Convert.ToInt32(writeN);;
+int N = int.Parse(Console.ReadLine()!);;
 
 int[] GetSqrtTable (int N)
 {
