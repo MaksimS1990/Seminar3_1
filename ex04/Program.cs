@@ -16,7 +16,7 @@ int[] GetSqrtTable (int N)
     return SqrtArray;
 }
 
-void PrintTable(int[] Array)
+void PrintTable(int[] Array) // функция выводит результат;
 {
     int number = 1;
     for(int i = 0; i < Array.Length; i++)
